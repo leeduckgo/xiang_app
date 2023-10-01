@@ -1,0 +1,7 @@
+/build/
+/elixir-app/
+/todoapp/app.zip
+/Carthage
+/todoapp.xcodeproj/xcuserdata/
+/todoapp.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
