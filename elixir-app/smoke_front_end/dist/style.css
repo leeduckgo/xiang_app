@@ -1,0 +1,24 @@
+body { 
+  margin: 0;
+  overflow: hidden;
+}
+
+svg {
+  background: #012;
+  width: 100vw;
+  height: 100vh;
+}
+
+path {
+  mix-blend-mode: overlay;
+}
+
+#num {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 120px;
+}

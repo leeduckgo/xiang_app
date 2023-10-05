@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Snap.svg</title>
+        <style>
+        body {
+            background: white;
+        }
+        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+    </head>
+    <body>
+
+        <script>
+            var s = Snap("100%", "600px");
+            var head = s.rect(200, 200, 20, 20, 5).attr(
+                {
+                    fill: "#eb4034",
+                    stroke: "#000",
+                    strokeWidth: 5
+                });
+            var body = s.rect(200, 220, 20, 300, 5).attr(
+                {
+                    fill: "#ebc034",
+                    stroke: "#000",
+                    strokeWidth: 5
+                });
+            // var bigCircle = s.circle(150, 150, 100);
+            // bigCircle.attr({
+            //     fill: "#fff",
+            //     stroke: "#000",
+            //     strokeWidth: 5
+            // });
+                        // // Now let's create pattern
+            // var p = s.path("M110,95,95,110M115,100,100,115").attr({
+            //         fill: "none",
+            //         stroke: "#bada55",
+            //         strokeWidth: 4
+            //     });
+
+            // //This is where our pattern cut will happen:
+            // var cut = s.rect(100, 100, 10, 10).attr({fill: "#fff", opacity: .5})
+            // cut.remove();
+            // //make it a pattern
+            // var ptrn = p.pattern(100, 100, 10, 10);
+            // //ptrn is an invisible <pattern> element.
+            // // Then use it as a fill on the big circle
+            // bigCircle.attr({
+            //     fill: ptrn
+            // });
+            //We still have access to original path for the pattern, lets animate it a bit:
+            // p.animate({strokeWidth: 1, stroke: "#FF4136"}, 1e3);
+            //Note that pattern could have as many elements as you want
+            // var bigCircle = s.circle(100, 100, 50);
+            // bigCircle.attr({
+            //     fill: "#bada55",
+            //     stroke: "#000",
+            //     strokeWidth: 5
+            // });
+            // var smallCircle = s.circle(70, 100, 40);
+            // var discs = s.group(smallCircle, s.circle(130, 100, 40));
+            // discs.attr({
+            //     fill: Snap("#pattern")
+            // });
+            // bigCircle.attr({
+            //     mask: discs
+            // });
+            // Snap.load("mascot.svg", function (f) {
+            //     var g = f.select("g");
+            //     f.selectAll("polygon[fill='#09B39C']").attr({
+            //         fill: "#fc0"
+            //     })
+            //     s.append(g);
+            //     g.drag();
+            // });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+msgid ""
+msgstr ""
+
+#: lib/todo_app/menubar.eex:14
+#, elixir-format
+msgid "About"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:14
+#, elixir-format, elixir-autogen
+msgid "File"
+msgstr ""
+
+#: lib/todo_app/menubar.eex:13
+#, elixir-format
+msgid "Help"
+msgstr ""
+
+#: lib/todo_app/menu.html.heex:2
+#, elixir-format, elixir-autogen
+msgid "Open"
+msgstr ""
+
+#: lib/todo_app/menu.html.heex:12
+#: lib/todo_app/menu_bar.ex:22
+#, elixir-format, elixir-autogen
+msgid "Quit"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:56
+#, elixir-format, elixir-autogen
+msgid "Sample Elixir Desktop App!"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:24
+#, elixir-format, elixir-autogen
+msgid "Extra"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:27
+#, elixir-format, elixir-autogen
+msgid "Open Browser"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:25
+#, elixir-format, elixir-autogen
+msgid "Show Notification"
+msgstr ""
+
+#: lib/todo_app/menu_bar.ex:26
+#, elixir-format, elixir-autogen
+msgid "Show Observer"
+msgstr ""
+
+#: lib/todo_web/templates/layout/root.html.leex:8
+#, elixir-format, elixir-autogen
+msgid " · Your Todos"
+msgstr ""
+
+#: lib/todo_web/live/todo_live.html.leex:4
+#, elixir-format, elixir-autogen
+msgid "Add new todo item..."
+msgstr ""
+
+#: lib/todo_web/live/todo_live.html.leex:2
+#, elixir-format, elixir-autogen
+msgid "My Todo List"
+msgstr ""

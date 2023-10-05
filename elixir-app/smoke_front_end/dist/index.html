@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - smoke effect svg</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg width="100px" height="1000px">
+  <defs>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0"></feGaussianBlur>
+    </filter>
+    <filter id="f2" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"></feGaussianBlur>
+    </filter>
+    <filter id="f3" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
+    </filter>
+    <filter id="f4" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"></feGaussianBlur>
+    </filter>
+  </defs>
+  <g id="smoke"></g>
+  <g id="cs"></g>
+  <g id="ce"></g>
+</svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

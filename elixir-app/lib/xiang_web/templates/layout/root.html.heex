@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <%= csrf_meta_tag() %>
+    <%= live_title_tag "元真宫 · 香" %>
+    <link rel="icon" type="image/svg+xml" href="/images/icon.svg">
+    <link phx-track-static rel="stylesheet" href="/assets/app.css"/>
+    <script defer phx-track-static type="text/javascript" src="/assets/app.js"></script>
+  </head>
+  <body class={String.downcase(inspect Desktop.OS.type())}>
+    <div class="wrap" id="main">
+      <%= @inner_content %>
+    </div>
+    <div>
+      <button >首页</button>
+      <button >行香祈福</button>
+      <button >买香</button>
+    </div>
+  </body>
+
+
+</html>
